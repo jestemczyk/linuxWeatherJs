@@ -1,13 +1,13 @@
 #! /usr/bin/env node
 
-let city = process.argv[2] || "Minsk";
+let city = process.argv[2] || "Berlin";
 
 function toCelsius(kelvins) {
   return Math.round(kelvins - 273.15);
 }
 
 if(city === "-h" || city === "--help"){
-	console.log("\n    weatherjs [key] [CITY]\n\nKeys:\n  -h    Open the description(that you are reading now)\n  --help    Open the description(that you are reading now)\n\n[CITY]:\n  Name of the city for the weather forecast. Unless you write it, it will be replaced with 'Minsk'.");
+	console.log("\n    weatherjs [key] [CITY]\n\nKeys:\n  -h    Open the description(that you are reading now)\n  --help    Open the description(that you are reading now)\n\n[CITY]:\n  Name of the city for the weather forecast. Unless you write it, it will be replaced with 'Berlin'.");
 }else{
 	try {
 	    const appId = "a94d0a5ac08570add4b47b8da933f247";
