@@ -51,8 +51,6 @@ Keys:
 
 ```
 
-### nodeWeather.js
-
 \*_it is still in development_
 
 ## How to install it
